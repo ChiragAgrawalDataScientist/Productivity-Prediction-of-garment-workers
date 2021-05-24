@@ -5,4 +5,16 @@ The Garment Industry is one of the key examples of the industrial globalization 
 e-mail :- chiragagrawal196@gmail.com <br>
 LinkedIn :- https://www.linkedin.com/in/chirag-agrawal-0bb939182/ <br>
 
-##
+## Files Description
+### Data
+- <strong>garments_worker_productivity.csv</strong> :- The initial training data downloaded from kaggle. <br>
+- <strong>garments_cleaned_train_data.csv</strong>  :- cleaned data after EDA and Preprocessing. <br>
+
+### Jupyter Notebooks
+- <strong>Productivity_EDA_and_Preprocessing.ipynb</strong>           :- All the EDA and preprocessing work done in this file. <br>
+- <strong>Models_and_tuning_Garments_Data.ipynb</strong>              :- This file includes the different model tunings to find the best model.<br>
+- <strong>Productivity_Prediction_system_Complete_code.ipynb</strong> :- This is the whole code combined with the final model.<br>
+
+### Other important file
+- <strong>catboost.pickle</strong> :- The final model stored in a pickle format.<br>
+
