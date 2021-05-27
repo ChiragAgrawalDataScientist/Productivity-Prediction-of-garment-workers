@@ -58,7 +58,10 @@ Attribute Information:
 
 Some of its features have outliers. With a single columns have 47% missing values. Generally we delete such columns with so much missing values but as I am not from this data domain, so I need to check whether this feature is important or not before deleting. <br>
 
-After some EDA, it was the time to encode some(3) features. When I LabelEncoded it, the department column became highly multicollinear with some other columns. So, I decided to use some other encoding method
+After some EDA, it was the time to encode some(3) features. When I LabelEncoded it, the department column became highly multicollinear with some other columns. <br>
+<img src = "https://github.com/ChiragAgrawalDataScientist/Productivity-Prediction-of-garment-workers/blob/master/images/Labelencode.PNG">
+
+Look at the department column, the Label Encoding introduced high multicolinearity between deprtment and other columns. So, I decided to use some other encoding method for just a single feature.
 
 
 
